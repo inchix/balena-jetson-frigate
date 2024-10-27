@@ -9,7 +9,7 @@ services:
       - "80:5000"
       - "1935:1935" # RTMP feeds
     volumes:
-      - config:/config
+      - /opt/frigate/config:/config:rw 
       - media:/media/frigate
     tmpfs:
       - /tmp/cache
