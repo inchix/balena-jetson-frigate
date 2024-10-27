@@ -3,7 +3,7 @@ version: "2.1"
 services:
   # https://blakeblackshear.github.io/frigate/installation
   frigate:
-     build: frigate
+    build: frigate
     privileged: true
     ports:
       - "80:5000"
