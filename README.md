@@ -35,15 +35,6 @@ When it's done you should be able to access the access the app at <http://frigat
 
 Additional usage instructions for Frigate can be found here: <https://blakeblackshear.github.io/frigate/>.
 
-### Wyze bridge
-
-There is an optional `wyze-bridge` service in case you own Wyze cameras and want to connect them to Frigate.
-
-Just add the environment variables `WYZE_EMAIL` and `WYZE_PASSWORD` to the `wyze-bridge` service and
-start adding cameras to the Frigate yml with the RTSP URL `rtsp://wyze-bridge:8554/camera-nickname`.
-
-Additional usage instructions can be found here: <https://github.com/mrlt8/docker-wyze-bridge>
-
 ## Contributing
 
 Please open an issue or submit a pull request with any features, fixes, or changes.
