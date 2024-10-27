@@ -28,14 +28,7 @@ services:
       io.balena.features.supervisor-api: 1
     environment:
       SET_HOSTNAME: frigate
-
-  # https://hub.docker.com/r/mrlt8/wyze-bridge/tags
-  wyze-bridge:
-    image: mrlt8/wyze-bridge:2.10.3@sha256:af2d638a6d6d52e15ddcfb711e5b905e484b1f519986ad33b9be562b6277b987
-    volumes:
-      - tokens:/tokens
-
+  
 volumes:
   config:
   media:
-  tokens:
