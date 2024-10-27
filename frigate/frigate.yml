@@ -1,6 +1,7 @@
 # yaml-language-server: $schema=http://localhost:5000/api/config/schema.json
 # https://docs.frigate.video/configuration/
 cameras:
+  enabled: False
   back:
     ffmpeg:
       inputs:
