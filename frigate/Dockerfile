@@ -1,3 +1,3 @@
-FROM ghcr.io/blakeblackshear/frigate:stable-tensorrt-jp5@sha256:22e3d0b486df52c3d669682254c2b1bf4205fa6ad8bd8f8c9f7fe76b1517005d
-
+#FROM ghcr.io/blakeblackshear/frigate:stable-tensorrt-jp5@sha256:22e3d0b486df52c3d669682254c2b1bf4205fa6ad8bd8f8c9f7fe76b1517005d
+FROM ghcr.io/blakeblackshear/frigate:2d27e72-tensorrt-jp5@sha256:d5825feb281f040e03ea3bec1a5020d84139cd4ee238a42aeef8a6e9d6e8ddbf
 COPY frigate.yml /config/frigate.yml
