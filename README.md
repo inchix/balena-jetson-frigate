@@ -11,7 +11,7 @@ It uses OpenCV and Tensorflow to perform realtime object detection locally for I
 
 You can one-click-deploy this project to balena using the button below:
 
-[![Deploy with balena](https://balena.io/deploy.svg)](https://dashboard.balena-cloud.com/deploy?repoUrl=https://github.com/klutchell/balena-frigate)
+[![Deploy with balena](https://balena.io/deploy.svg)](https://dashboard.balena-cloud.com/deploy?repoUrl=https://github.com/inchix/balena-jetson-frigate)
 
 ## Manual Deployment
 
