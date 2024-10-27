@@ -28,7 +28,7 @@ services:
       io.balena.features.supervisor-api: 1
     environment:
       SET_HOSTNAME: frigate
-  
+  runtime: nvidia
 volumes:
   config:
   media:
