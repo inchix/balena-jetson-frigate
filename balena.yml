@@ -15,13 +15,13 @@ assets:
   repository:
     type: "blob.asset"
     data:
-      url: "https://github.com/klutchell/balena-frigate"
+      url: "https://github.com/inchix/balena-jetson-frigate/"
   logo:
     type: "blob.asset"
     data:
-      url: "https://raw.githubusercontent.com/klutchell/balena-frigate/main/logo.png"
+      url: "https://raw.githubusercontent.com/inchix/balena-jetson-frigate/main/logo.png"
 data:
-  defaultDeviceType: "intel-nuc"
+  defaultDeviceType: "jetson-nano"
   supportedDeviceTypes:
     - "intel-nuc"
     - "genericx86-64-ext"
